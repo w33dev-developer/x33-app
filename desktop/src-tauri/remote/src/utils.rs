@@ -160,7 +160,7 @@ pub fn get_client_sync() -> reqwest::blocking::Client {
     }
     client
         .use_rustls_tls()
-        .user_agent("Drop Desktop Client")
+        .user_agent("X33 App Desktop Client")
         .connect_timeout(Duration::from_millis(1500))
         .build()
         .expect("Failed to build synchronous client")
@@ -173,7 +173,7 @@ pub fn get_client_async() -> ClientWithMiddleware {
     }
     let normal_client = client
         .use_rustls_tls()
-        .user_agent("Drop Desktop Client")
+        .user_agent("X33 App Desktop Client")
         .build()
         .expect("Failed to build asynchronous client");
 
@@ -189,7 +189,7 @@ pub fn get_client_ws() -> reqwest::Client {
     }
     client
         .use_rustls_tls()
-        .user_agent("Drop Desktop Client")
+        .user_agent("X33 App Desktop Client")
         .http1_only()
         .build()
         .expect("Failed to build websocket client")

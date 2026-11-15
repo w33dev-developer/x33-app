@@ -1,6 +1,6 @@
 # Client Handshake process
 
-Drop clients need to complete a handshake in order to connect to a Drop server. It also trades certificates for encrypted P2P connections.
+X33 App clients need to complete a handshake in order to connect to a X33 App server. It also trades certificates for encrypted P2P connections.
 
 ## 1. Client requests a handshake
 

@@ -1,6 +1,6 @@
 # Library Format
 
-Drop uses a filesystem-based library format, as it targets homelabs and not enterprise-grade solutions. The format works as follows:
+X33 App uses a filesystem-based library format, as it targets homelabs and not enterprise-grade solutions. The format works as follows:
 
 ## /{game name}
 

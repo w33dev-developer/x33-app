@@ -29,7 +29,7 @@ else
   SYSTEMCTL="systemctl --user"
 fi
 
-echo "==> 1. Stopping Drop Quadlet services..."
+echo "==> 1. Stopping X33 App Quadlet services..."
 ${SYSTEMCTL} stop drop.service drop-postgres.service drop-network-network.service 2>/dev/null || true
 ${SYSTEMCTL} reset-failed drop*.service 2>/dev/null || true
 
@@ -51,7 +51,7 @@ fi
 
 echo ""
 echo "==============================================================="
-echo " Drop Quadlet deployment uninstalled."
+echo " X33 App Quadlet deployment uninstalled."
 if [[ "$REMOVE_VOLUMES" = false ]]; then
   echo " Persistent volumes and configuration files were preserved in ${QUADLET_DIR}."
   echo " To delete all data volumes, re-run with: $0 --purge-data"

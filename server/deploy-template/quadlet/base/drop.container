@@ -1,5 +1,5 @@
 [Unit]
-Description=Drop Game Distribution Platform
+Description=X33 App Game Distribution Platform
 Wants=network-online.target
 After=network-online.target drop-postgres.service
 Requires=drop-postgres.service

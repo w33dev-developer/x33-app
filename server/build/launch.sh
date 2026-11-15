@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This file starts up the Drop server by running migrations and then starting the executable
-echo "[Drop] performing migrations..."
+# This file starts up the X33 App server by running migrations and then starting the executable
+echo "[X33 App] performing migrations..."
 pnpm prisma migrate deploy
 
 # Actually start the application

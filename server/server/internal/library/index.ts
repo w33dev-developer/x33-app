@@ -1,5 +1,5 @@
 /**
- * The Library Manager keeps track of games in Drop's library and their various states.
+ * The Library Manager keeps track of games in X33 App's library and their various states.
  * It uses path relative to the library, so it can moved without issue
  *
  * It also provides the endpoints with information about unmatched games

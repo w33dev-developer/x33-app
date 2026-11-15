@@ -28,7 +28,7 @@ pub async fn use_remote(
     debug!("connecting to url {url}");
     let base_url = Url::parse(&url)?;
 
-    // Test Drop url
+    // Test X33 App url
     let test_endpoint = base_url.join("/api/v1")?;
     let client = DROP_CLIENT_ASYNC.clone();
     let response = client
@@ -39,8 +39,8 @@ pub async fn use_remote(
 
     let result: DropHealthcheck = response.json().await?;
 
-    if result.app_name() != "Drop" {
-        warn!("user entered drop endpoint that connected, but wasn't identified as Drop");
+    if result.app_name() != "X33 App" {
+        warn!("user entered drop endpoint that connected, but wasn't identified as X33 App");
         return Err(RemoteAccessError::InvalidEndpoint);
     }
 

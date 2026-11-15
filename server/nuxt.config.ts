@@ -32,7 +32,7 @@ const commitHash =
   process.env.BUILD_GIT_REF ??
   execSync("git rev-parse --short HEAD").toString().trim();
 
-console.log(`Drop ${dropVersion} #${commitHash}`);
+console.log(`X33 App ${dropVersion} #${commitHash}`);
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({

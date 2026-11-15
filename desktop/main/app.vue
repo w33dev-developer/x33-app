@@ -50,6 +50,6 @@ setupHooks();
 initialNavigation(state);
 
 useHead({
-  title: "Drop",
+  title: "X33 App",
 });
 </script>

@@ -1,5 +1,5 @@
 [Unit]
-Description=Drop PostgreSQL Database
+Description=X33 App PostgreSQL Database
 Wants=network-online.target
 After=network-online.target
 

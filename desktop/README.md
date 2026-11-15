@@ -1,6 +1,6 @@
 # Desktop
 
-The official desktop client for Drop.
+The official desktop client for X33 App.
 
 ## Release packages
 

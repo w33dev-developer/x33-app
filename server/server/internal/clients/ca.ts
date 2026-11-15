@@ -33,7 +33,7 @@ export class CertificateAuthority {
 
     const serverCertificate = await ca.fetchClientCertificate("server");
     if (!serverCertificate) {
-      await ca.generateClientCertificate("server", "Drop Server");
+      await ca.generateClientCertificate("server", "X33 App Server");
     }
 
     logger.info("initialised the ca");

@@ -37,7 +37,7 @@ definePageMeta({
 
 useHead({
   titleTemplate(title) {
-    return title ? `${title} - Drop` : "Two-factor authentication - X33";
+    return title ? `${title} - X33 App` : "Two-factor authentication - X33";
   },
 });
 </script>

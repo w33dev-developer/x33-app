@@ -7,7 +7,7 @@ for arg in "$@"; do
   case "$arg" in
     --help|-h)
       echo "Usage: $0"
-      echo "  Installs the base Drop Quadlet stack (server + PostgreSQL)."
+      echo "  Installs the base X33 App Quadlet stack (server + PostgreSQL)."
       exit 0
       ;;
     *)
@@ -30,7 +30,7 @@ fi
 
 mkdir -p "${QUADLET_DIR}"
 
-echo "==> 1. Copying base Drop Quadlet units..."
+echo "==> 1. Copying base X33 App Quadlet units..."
 cp -v "${SCRIPT_DIR}/base/"*.network "${QUADLET_DIR}/"
 cp -v "${SCRIPT_DIR}/base/"*.volume "${QUADLET_DIR}/"
 cp -v "${SCRIPT_DIR}/base/"*.container "${QUADLET_DIR}/"
@@ -51,10 +51,10 @@ ${SYSTEMCTL} restart drop.service
 
 echo ""
 echo "==============================================================="
-echo " Drop Quadlet deployment completed successfully!"
-echo " Drop Web App: http://localhost:3000"
+echo " X33 App Quadlet deployment completed successfully!"
+echo " X33 App Web App: http://localhost:3000"
 if [[ $EUID -ne 0 ]]; then
-  echo " Rootless note: run 'loginctl enable-linger ${USER}' to start Drop"
+  echo " Rootless note: run 'loginctl enable-linger ${USER}' to start X33 App"
   echo " on boot without an active login session."
 fi
 echo "==============================================================="

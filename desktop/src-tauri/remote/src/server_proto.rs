@@ -75,7 +75,7 @@ async fn handle_server_proto(request: Request<Vec<u8>>) -> Result<Response<Vec<u
     let mut headers = HeaderMap::new();
     request.headers().clone_into(&mut headers);
     headers.remove(USER_AGENT);
-    headers.append(USER_AGENT, HeaderValue::from_static("Drop Desktop Client"));
+    headers.append(USER_AGENT, HeaderValue::from_static("X33 App Desktop Client"));
     headers.append(
         "Authorization",
         HeaderValue::from_str(&format!("Bearer {web_token}")).unwrap(),

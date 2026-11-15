@@ -14,8 +14,8 @@
             Install directories
           </h3>
           <p class="mt-1 text-sm text-zinc-400 max-w-xl">
-            This is where Drop will download game files to, and store them
-            indefinitely while you play. Drop and games may store other
+            This is where X33 App will download game files to, and store them
+            indefinitely while you play. X33 App and games may store other
             information elsewhere, like saves or mods.
           </p>
         </div>
@@ -55,7 +55,7 @@
         Download Settings
       </h3>
       <p class="mt-1 text-sm text-zinc-400 max-w-xl">
-        Configure how Drop downloads games and other content.
+        Configure how X33 App downloads games and other content.
       </p>
 
       <div class="mt-6 max-w-xl">
@@ -77,7 +77,7 @@
           <div>
             <h3 class="text-sm font-medium leading-6 text-zinc-100">Force Offline</h3>
             <p class="mt-1 text-sm leading-6 text-zinc-400">
-              Drop will not make any external connections
+              X33 App will not make any external connections
             </p>
           </div>
           <Switch v-model="forceOffline" :class="[
@@ -145,7 +145,7 @@
                       </label>
                     </div>
                     <p class="mt-3 text-sm text-amber-300">
-                      Drop may delete folders and files in this directory, including items you created manually.
+                      X33 App may delete folders and files in this directory, including items you created manually.
                     </p>
                   </div>
                 </div>

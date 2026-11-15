@@ -194,7 +194,7 @@ pub fn custom_panic_handler(e: &PanicHookInfo) -> Option<()> {
             .as_secs()
     ));
     let mut file = File::create_new(crash_file).ok()?;
-    file.write_all(format!("Drop crashed with the following panic:\n{e}").as_bytes())
+    file.write_all(format!("X33 App crashed with the following panic:\n{e}").as_bytes())
         .ok()?;
     drop(file);
 
@@ -311,7 +311,7 @@ pub fn run() {
                 let height = 864.0;
 
                 let main_window = WindowBuilder::new(&handle, "main")
-                    .title("Drop Desktop App")
+                    .title("X33 App Desktop App")
                     .min_inner_size(1000.0, 500.0)
                     .inner_size(width, height)
                     .decorations(false)

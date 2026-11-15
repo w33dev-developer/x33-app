@@ -105,7 +105,7 @@ const navigation: NavigationItem[] = [
     prefix: "",
   },
   {
-    label: "Quit Drop",
+    label: "Quit X33 App",
     route: "/quit",
     prefix: "",
   },

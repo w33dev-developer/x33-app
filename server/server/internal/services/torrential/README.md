@@ -1,6 +1,6 @@
 # torrential service
 
-The role of torrential has expanded recently to be the source of ALL Rust/native execution within Drop, to avoid using the buggy napi.rs `droplet` package.
+The role of torrential has expanded recently to be the source of ALL Rust/native execution within X33 App, to avoid using the buggy napi.rs `droplet` package.
 
 It communicates over `127.0.0.1:33148`, which the service connects to and stores the socket handle to.
 

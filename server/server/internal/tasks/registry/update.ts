@@ -36,7 +36,7 @@ export default defineDropTask({
     const currVerStr = systemConfig.getDropVersion();
     const currVer = semver.coerce(currVerStr);
     if (currVer === null) {
-      const msg = "Drop provided a invalid semver tag";
+      const msg = "X33 App provided a invalid semver tag";
       logger.info(msg);
       throw new Error(msg);
     }

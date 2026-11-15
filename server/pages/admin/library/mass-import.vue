@@ -239,7 +239,7 @@
                       <p class="text-sm text-zinc-400">
                         While it is useful to import a lot of versions at once,
                         this tool is designed for migrating from other projects,
-                        rather than building your Drop library from scratch.
+                        rather than building your X33 App library from scratch.
 
                         <span class="text-sm text-zinc-100 font-bold">
                           It is missing functionality present in the normal

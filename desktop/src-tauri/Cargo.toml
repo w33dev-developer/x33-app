@@ -1,8 +1,8 @@
 [package]
 name = "drop-app"
 version = "0.4.0"
-description = "The client application for the open-source, self-hosted game distribution platform Drop"
-authors = ["Drop OSS"]
+description = "The client application for the open-source, self-hosted game distribution platform X33 App"
+authors = ["X33 App OSS"]
 edition = "2024"
 
 [workspace]
