@@ -1,15 +1,15 @@
-name: Build and release server
+name: Build X33 server image
 
 on:
   workflow_dispatch: {}
   release:
     types: [published]
-  # This can be used to automatically publish nightlies at UTC nighttime
-  schedule:
-    - cron: "0 2 * * *" # run at 2 AM UTC
+  push:
+    branches: [x33-server-branding, main]
+    paths: ["server/**", "Dockerfile", ".github/workflows/server-release.yml"]
 
 env:
-  REGISTRY_IMAGE: ghcr.io/drop-oss/drop
+  REGISTRY_IMAGE: ghcr.io/w33dev-developer/x33-server
 
 jobs:
   build:
@@ -19,8 +19,6 @@ jobs:
         include:
           - platform: linux/amd64
             runner: ubuntu-latest
-          - platform: linux/arm64
-            runner: ubuntu-24.04-arm
     runs-on: ${{ matrix.runner }}
     permissions:
       packages: write
@@ -133,16 +131,15 @@ jobs:
         uses: docker/metadata-action@v6
         with:
           images: |
-            ghcr.io/drop-OSS/drop
+            ghcr.io/w33dev-developer/x33-server
           tags: |
-            type=schedule,pattern=nightly
-            type=schedule,pattern=nightly.${{ steps.get_final_ver.outputs.today }}
             type=semver,pattern=v{{version}}
             type=semver,pattern=v{{major}}.{{minor}}
             type=semver,pattern=v{{major}}
             type=ref,event=branch,prefix=branch-
             type=ref,event=pr
             type=sha
+            type=raw,value=x33
             # set latest tag for stable releases
             type=raw,value=latest,enable=${{ github.event_name == 'release' && github.event.release.prerelease == false }}
 

@@ -1,14 +1,14 @@
 {
   "account": {
     "devices": {
-      "subheader": "Manage the devices authorised to access your Drop account."
+      "subheader": "Manage the devices authorised to access your X33 account."
     }
   },
   "auth": {
     "callback": {
       "authClient": "Authorise client?",
       "authorize": "Authorise",
-      "authorizedClient": "Drop has successfully authorised the client. You may now close this window."
+      "authorizedClient": "X33 has successfully authorised the client. You may now close this window."
     }
   },
   "library": {

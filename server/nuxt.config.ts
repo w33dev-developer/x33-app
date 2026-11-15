@@ -117,9 +117,9 @@ export default defineNuxtConfig({
       // tracking for dynamic openapi schema https://github.com/nitrojs/nitro/issues/2974
       // create body from types: https://github.com/nitrojs/nitro/issues/3275
       meta: {
-        title: "Drop",
+        title: "X33 Server",
         description:
-          "Drop is an open-source, self-hosted game distribution platform, creating a Steam-like experience for DRM-free games.",
+          "X33 Server - game distribution platform by W33DEV.",
         version: dropVersion,
       },
     },

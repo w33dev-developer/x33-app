@@ -44,7 +44,7 @@ export default defineEventHandler(async (h3) => {
     type: "totp",
     secret,
     name: userId,
-    issuer: "Drop",
+    issuer: "X33",
   });
 
   await prisma.linkedMFAMec.create({

@@ -89,7 +89,7 @@ export default defineDropTask({
       notificationSystem.systemPush({
         nonce: `drop-update-available-${currVer}-to-${latestVer}`,
         title: `Update available to v${latestVer}`,
-        description: `A new version of Drop is available v${latestVer}`,
+        description: `A new version of X33 is available v${latestVer}`,
         actions: [`View|${body.html_url}`],
         acls: ["system:notifications:read"],
       });

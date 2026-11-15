@@ -75,3 +75,14 @@ button {
 html {
   background-color: oklch(0.21 0.006 285.885);
 }
+
+/* X33 ENGINE-X: Rajdhani (SIL OFL) */
+@each $w in 500, 600, 700 {
+  @font-face {
+    font-family: "Rajdhani";
+    src: url("/fonts/rajdhani/rajdhani-latin-#{$w}-normal.woff2") format("woff2");
+    font-weight: $w;
+    font-style: normal;
+    font-display: swap;
+  }
+}

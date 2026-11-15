@@ -6,7 +6,7 @@
       "noDevices": "No contraptions tied to yer coffers, eh?",
       "platform": "Ship",
       "revoke": "Scuttle 'em",
-      "subheader": "Manage the contraptions allowed access to yer Drop booty.",
+      "subheader": "Manage the contraptions allowed access to yer X33 booty.",
       "title": "Contraptions"
     },
     "notifications": {
@@ -31,18 +31,18 @@
   },
   "actions": "Deeds",
   "add": "Add",
-  "adminTitle": "Cap'n's Quarters - Drop",
-  "adminTitleTemplate": "{0} - Cap'n - Drop",
+  "adminTitle": "Cap'n's Quarters - X33",
+  "adminTitleTemplate": "{0} - Cap'n - X33",
   "auth": {
     "callback": {
       "authClient": "Grant passage to this scallywag?",
       "authorize": "Grant Passage",
-      "authorizedClient": "Drop has granted passage to the scallywag. Ye may now shut this porthole.",
+      "authorizedClient": "X33 has granted passage to the scallywag. Ye may now shut this porthole.",
       "issues": "Troubles be brewin', matey?",
       "learn": "Learn more {arrow}",
       "paste": "Scribble this code into the scallywag to carry on:",
       "permWarning": "Grantin' this request allows \"{name}\" on \"{platform}\" to:",
-      "requestedAccess": "\"{name}\" has requested passage to yer Drop coffer.",
+      "requestedAccess": "\"{name}\" has requested passage to yer X33 coffer.",
       "success": "Shiver me timbers, it worked!"
     },
     "code": {
@@ -58,7 +58,7 @@
       "emailFormat": "Must be in the fashion of a true scallywag {'@'} example.com",
       "passwordFormat": "Must be 8 or more marks, ye landlubber!",
       "subheader": "Fill in yer details below to make yer mark.",
-      "title": "Forge yer Drop Mark",
+      "title": "Forge yer X33 Mark",
       "usernameFormat": "Must be 5 or more marks, and all lowercase, argh!"
     },
     "signin": {
@@ -66,7 +66,7 @@
       "forgot": "Forgot yer secret word, eh?",
       "noAccount": "No mark in the logbook? Beg a cap'n to make ye one, argh!",
       "or": "OR",
-      "pageTitle": "Sign in to Drop, ye dog!",
+      "pageTitle": "Sign in to X33, ye dog!",
       "rememberMe": "Remember me, savvy?",
       "signin": "Sign in, ye scurvy dog!",
       "title": "Sign in to yer mark"
@@ -107,7 +107,7 @@
   },
   "drop": {
     "desc": "An open-source game distribution platform built for speed, flexibility and beauty, like a swift brigantine!",
-    "drop": "Drop"
+    "drop": "X33"
   },
   "editor": {
     "bold": "Bold, like a cannonball!",
@@ -146,27 +146,27 @@
     "backHome": "{arrow} Back to yer safe harbor",
     "game": {
       "banner": {
-        "description": "Drop failed to hoist the banner image: {0}",
+        "description": "X33 failed to hoist the banner image: {0}",
         "title": "Failed to hoist the banner image"
       },
       "carousel": {
-        "description": "Drop failed to update the image carousel: {0}",
+        "description": "X33 failed to update the image carousel: {0}",
         "title": "Failed to update image carousel"
       },
       "cover": {
-        "description": "Drop failed to hoist the cover image: {0}",
+        "description": "X33 failed to hoist the cover image: {0}",
         "title": "Failed to hoist the cover image"
       },
       "deleteImage": {
-        "description": "Drop failed to scuttle the image: {0}",
+        "description": "X33 failed to scuttle the image: {0}",
         "title": "Failed to scuttle the image"
       },
       "description": {
-        "description": "Drop failed to update the game description: {0}",
+        "description": "X33 failed to update the game description: {0}",
         "title": "Failed to update game description"
       },
       "metadata": {
-        "description": "Drop failed to update the game's charts: {0}",
+        "description": "X33 failed to update the game's charts: {0}",
         "title": "Failed to update yer charts"
       }
     },
@@ -174,18 +174,18 @@
     "inviteRequired": "Invitation demanded to sign up, ye landlubber.",
     "library": {
       "add": {
-        "desc": "Drop couldn't add this game to yer treasure hoard: {0}",
+        "desc": "X33 couldn't add this game to yer treasure hoard: {0}",
         "title": "Failed to add game to yer treasure hoard"
       },
       "collection": {
         "create": {
-          "desc": "Drop couldn't forge yer collection, argh: {0}",
+          "desc": "X33 couldn't forge yer collection, argh: {0}",
           "title": "Failed to forge collection"
         }
       },
       "source": {
         "delete": {
-          "desc": "Drop couldn't scuttle this source: {0}",
+          "desc": "X33 couldn't scuttle this source: {0}",
           "title": "Failed to scuttle treasure hoard source"
         }
       }
@@ -193,37 +193,37 @@
     "news": {
       "article": {
         "delete": {
-          "desc": "Drop couldn't scuttle this article: {0}",
+          "desc": "X33 couldn't scuttle this article: {0}",
           "title": "Failed to scuttle article"
         }
       }
     },
     "occurred": "An error occurred whilst answerin' yer plea. If ye believe this be a bug, report it, ye dog! Try signin' in and see if it clears the decks.",
     "ohNo": "Blimey!",
-    "pageTitle": "{0} | Drop",
+    "pageTitle": "{0} | X33",
     "revokeClient": "Failed to scuttle scallywag",
     "revokeClientFull": "Failed to scuttle scallywag {0}",
     "signIn": "Sign in {arrow}, ye scurvy dog!",
     "support": "Support Discord, arrr!",
     "unknown": "An unknown blunder occurred, savvy?",
     "upload": {
-      "description": "Drop couldn't hoist the file: {0}",
+      "description": "X33 couldn't hoist the file: {0}",
       "title": "Failed to hoist the file"
     },
     "version": {
       "delete": {
-        "desc": "Drop met a squall whilst scuttlin' the version: {error}",
+        "desc": "X33 met a squall whilst scuttlin' the version: {error}",
         "title": "There was a squall whilst scuttlin' the version"
       },
       "order": {
-        "desc": "Drop met a squall whilst updatin' the version: {error}",
+        "desc": "X33 met a squall whilst updatin' the version: {error}",
         "title": "There was a squall whilst updatin' the version order"
       }
     }
   },
   "footer": {
     "about": "About, savvy?",
-    "aboutDrop": "About Drop, argh!",
+    "aboutDrop": "About X33, argh!",
     "comparison": "Comparison, matey!",
     "docs": {
       "client": "Scallywag's Docs",
@@ -238,7 +238,7 @@
       "github": "GitHub, savvy?"
     },
     "topSellers": "Top Plunderers",
-    "version": "Drop {version} {gitRef}"
+    "version": "X33 {version} {gitRef}"
   },
   "header": {
     "admin": {
@@ -251,15 +251,15 @@
     "back": "Aft!",
     "openSidebar": "Open the side-hatch!"
   },
-  "helpUsTranslate": "Help us translate Drop {arrow}, argh!",
+  "helpUsTranslate": "Help us translate X33 {arrow}, argh!",
   "highest": "highest",
   "home": "Home Port",
   "library": {
     "addGames": "All Plunder",
     "addToLib": "Add to Yer Treasure Hoard",
     "admin": {
-      "detectedGame": "Drop has found new plunder to import, argh!",
-      "detectedVersion": "Drop has found new versions of this plunder to import, savvy!",
+      "detectedGame": "X33 has found new plunder to import, argh!",
+      "detectedVersion": "X33 has found new versions of this plunder to import, savvy!",
       "game": {
         "addAgeRating": "Add Rating",
         "addCarouselNoImages": "No images to add, ye dog.",
@@ -315,7 +315,7 @@
           "setupPlaceholder": "setup.exe, aye!",
           "umuLauncherId": "UMU Launcher ID",
           "umuOverride": "Override UMU Launcher Game ID",
-          "umuOverrideDesc": "By default, Drop uses a non-ID when launchin' with UMU Launcher. To get the right patches for some games, ye might have to set this field by hand, savvy.",
+          "umuOverrideDesc": "By default, X33 uses a non-ID when launchin' with UMU Launcher. To get the right patches for some games, ye might have to set this field by hand, savvy.",
           "updateMode": "Update mode, argh!",
           "updateModeDesc": "When enabled, these files will be installed atop (overwritin') the previous version's. If many 'update modes' be chained together, they be applied in order, ye hear!",
           "version": "Pick version to import"
@@ -339,8 +339,8 @@
       "shortDesc": "Short Description",
       "sources": {
         "create": "Forge source",
-        "createDesc": "Drop will use this source to get to yer game treasure hoard, and make 'em available, argh.",
-        "desc": "Rig yer treasure hoard sources, where Drop will look for new plunder and versions to import, savvy.",
+        "createDesc": "X33 will use this source to get to yer game treasure hoard, and make 'em available, argh.",
+        "desc": "Rig yer treasure hoard sources, where X33 will look for new plunder and versions to import, savvy.",
         "fsDesc": "Imports games from a path on disk. Needs version-based folder structure, and backs archived games, ye hear!",
         "fsPath": "Path",
         "fsPathDesc": "An absolute path to yer game treasure hoard.",
@@ -352,7 +352,7 @@
         "typeDesc": "The type of yer source. Changes the demanded options, ye dog!",
         "working": "Workin', eh?"
       },
-      "subheader": "As ye add folders to yer treasure hoard sources, Drop will find 'em and ask ye to import 'em. Each game needs to be imported before ye can import a version, savvy.",
+      "subheader": "As ye add folders to yer treasure hoard sources, X33 will find 'em and ask ye to import 'em. Each game needs to be imported before ye can import a version, savvy.",
       "title": "Treasure Hoards",
       "version": {
         "delta": "Upgrade mode",
@@ -445,7 +445,7 @@
       "noTasksRunning": "No duties currently underway",
       "runningTasksTitle": "Duties underway",
       "scheduled": {
-        "checkUpdateDescription": "Check if Drop has new charts.",
+        "checkUpdateDescription": "Check if X33 has new charts.",
         "checkUpdateName": "Check for new charts.",
         "cleanupInvitationsDescription": "Cleans up expired invitations from the logbook to save space, savvy.",
         "cleanupInvitationsName": "Clean up invitations",
@@ -458,8 +458,8 @@
       "weeklyScheduledTitle": "Weekly chores"
     }
   },
-  "title": "Drop",
-  "titleTemplate": "{0} - Drop",
+  "title": "X33",
+  "titleTemplate": "{0} - X33",
   "todo": "Todo, argh!",
   "type": "Type",
   "upload": "Hoist!",
@@ -483,7 +483,7 @@
       "authLink": "Passage {arrow}",
       "authentication": {
         "configure": "Rig",
-        "description": "Drop backs many 'passage ways'. As ye enable or disable 'em, they show on the sign-in screen for the crew to pick. Click the dot menu to rig the passage way.",
+        "description": "X33 backs many 'passage ways'. As ye enable or disable 'em, they show on the sign-in screen for the crew to pick. Click the dot menu to rig the passage way.",
         "disabled": "Disabled",
         "enabled": "Enabled",
         "enabledKey": "Enabled, argh?",
@@ -495,7 +495,7 @@
       "authoptionsHeader": "Passage Options",
       "delete": "Scuttle!",
       "deleteUser": "Make {0} walk the plank!",
-      "description": "Manage the crew on yer Drop vessel, and set yer passage methods, savvy?",
+      "description": "Manage the crew on yer X33 vessel, and set yer passage methods, savvy?",
       "displayNameHeader": "Scallywag Name",
       "emailHeader": "Salty Mail",
       "groups": {
@@ -536,14 +536,14 @@
         "inviteAdminSwitchDescription": "Make this crewman a cap'n, argh!",
         "inviteAdminSwitchLabel": "Cap'n's invitation",
         "inviteButton": "Invite, ye dog!",
-        "inviteDescription": "Drop will make a scroll ye can send to the scallywag ye want to invite. Ye can optionally name a crew name or salty mail for them to use.",
+        "inviteDescription": "X33 will make a scroll ye can send to the scallywag ye want to invite. Ye can optionally name a crew name or salty mail for them to use.",
         "inviteEmailDescription": "Must be in the fashion of a scallywag {'@'} example.com",
         "inviteEmailLabel": "Salty mail address (optional)",
         "inviteEmailPlaceholder": "me{'@'}example.com",
         "inviteExpiryLabel": "Expires",
         "inviteMonth": "1 moon",
         "inviteNever": "Never",
-        "inviteTitle": "Invite crew to Drop",
+        "inviteTitle": "Invite crew to X33",
         "inviteUsernameFormat": "Must be 5 or more marks",
         "inviteUsernameLabel": "Crew Name (optional)",
         "inviteUsernamePlaceholder": "myScallywagName",

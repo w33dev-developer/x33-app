@@ -585,7 +585,7 @@ class LibraryManager {
           notificationSystem.systemPush({
             nonce: `version-create-${gameId}-${version}`,
             title: `'${game.mName}' ('${version.name}') finished importing.`,
-            description: `Drop finished importing version ${version.name} for ${game.mName}.`,
+            description: `X33 finished importing version ${version.name} for ${game.mName}.`,
             actions: [`View|/admin/library/${gameId}`],
             acls: ["system:import:version:read"],
           });
