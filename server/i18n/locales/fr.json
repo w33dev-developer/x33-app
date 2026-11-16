@@ -675,6 +675,10 @@
     "profile": {
       "admin": "Tableau de Bord Administratif",
       "settings": "Paramètres du compte"
+    },
+    "friends": {
+      "title": "Amis",
+      "comingSoon": "Bientôt disponible"
     }
   },
   "users": {

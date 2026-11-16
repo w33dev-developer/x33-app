@@ -100,5 +100,11 @@
   },
   "editor": {
     "link": "Ссылка"
+  },
+  "userHeader": {
+    "friends": {
+      "title": "Друзья",
+      "comingSoon": "Скоро"
+    }
   }
 }

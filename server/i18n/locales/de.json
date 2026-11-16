@@ -675,6 +675,10 @@
     "profile": {
       "admin": "Admin Dashboard",
       "settings": "Kontoeinstellungen"
+    },
+    "friends": {
+      "title": "Freunde",
+      "comingSoon": "Demnächst verfügbar"
     }
   },
   "users": {

@@ -651,6 +651,10 @@
     "profile": {
       "admin": "Panel Administracyjny",
       "settings": "Ustawienia konta"
+    },
+    "friends": {
+      "title": "Znajomi",
+      "comingSoon": "Wkrótce"
     }
   },
   "users": {

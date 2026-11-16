@@ -19,5 +19,11 @@
   },
   "setup": {
     "welcome": "G'day."
+  },
+  "userHeader": {
+    "friends": {
+      "title": "Friends",
+      "comingSoon": "Coming soon"
+    }
   }
 }

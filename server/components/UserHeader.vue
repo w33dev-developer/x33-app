@@ -23,9 +23,38 @@
     <div class="inline-flex items-center">
       <ol class="inline-flex gap-3">
         <li>
-          <UserHeaderWidget>
-            <UserGroupIcon class="h-5" />
-          </UserHeaderWidget>
+          <Menu as="div" class="relative inline-block">
+            <MenuButton :aria-label="$t('userHeader.friends.title')">
+              <UserHeaderWidget>
+                <UserGroupIcon class="h-5" />
+              </UserHeaderWidget>
+            </MenuButton>
+
+            <transition
+              enter-active-class="transition ease-out duration-100"
+              enter-from-class="transform opacity-0 scale-95"
+              enter-to-class="transform opacity-100 scale-100"
+              leave-active-class="transition ease-in duration-75"
+              leave-from-class="transform opacity-100 scale-100"
+              leave-to-class="transform opacity-0 scale-95"
+            >
+              <MenuItems
+                class="absolute inset-x-0 -translate-x-1/2 top-10 z-50 w-64 focus:outline-none shadow-md"
+              >
+                <div
+                  class="rounded-md bg-zinc-950 ring-1 ring-zinc-800 px-5 py-6 text-center"
+                >
+                  <UserGroupIcon class="mx-auto h-8 text-blue-400" />
+                  <p class="mt-3 text-sm font-semibold text-zinc-100">
+                    {{ $t("userHeader.friends.title") }}
+                  </p>
+                  <p class="mt-1 text-sm text-zinc-400">
+                    {{ $t("userHeader.friends.comingSoon") }}
+                  </p>
+                </div>
+              </MenuItems>
+            </transition>
+          </Menu>
         </li>
 
         <li>

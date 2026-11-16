@@ -474,6 +474,10 @@
     "profile": {
       "admin": "Cap'n's Quarters",
       "settings": "Account settings, savvy!"
+    },
+    "friends": {
+      "title": "Crew",
+      "comingSoon": "Comin' soon, matey"
     }
   },
   "users": {

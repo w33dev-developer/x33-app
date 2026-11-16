@@ -794,6 +794,10 @@
     "profile": {
       "admin": "Admin Dashboard",
       "settings": "Account settings"
+    },
+    "friends": {
+      "title": "Friends",
+      "comingSoon": "Coming soon"
     }
   },
   "users": {
