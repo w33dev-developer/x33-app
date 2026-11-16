@@ -9,7 +9,7 @@
           <ApplicationLogo aria-hidden="true" class="h-5" />
           <span class="text-blue-400 font-display font-bold text-sm uppercase">X33 App</span>
         </div>
-        <SelectorLanguage />
+        <SelectorLanguageListbox :show-text="false" :open-up="true" class="w-44" />
       </div>
 
       <div class="flex items-center gap-x-4 text-xs text-zinc-500">

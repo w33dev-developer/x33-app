@@ -5,7 +5,7 @@
       class="block text-sm/6 font-medium text-zinc-400"
       >{{ $t("selectLanguage") }}</ListboxLabel
     >
-    <div class="relative mt-2">
+    <div :class="['relative', openUp ? '' : 'mt-2']">
       <ListboxButton
         class="grid w-full cursor-default grid-cols-1 rounded-md bg-zinc-900 py-1.5 pr-2 pl-3 text-left text-zinc-300 outline-1 -outline-offset-1 outline-zinc-700 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
       >
@@ -30,7 +30,8 @@
         leave-to-class="opacity-0"
       >
         <ListboxOptions
-          class="absolute z-10 mt-1 max-h-56 w-full overflow-auto rounded-md bg-zinc-900 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm"
+          :class="openUp ? 'bottom-full mb-1' : 'mt-1'"
+          class="absolute z-10 max-h-56 w-full overflow-auto rounded-md bg-zinc-900 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm"
         >
           <ListboxOption
             v-for="listLocale in locales"
@@ -90,7 +91,10 @@ import { ChevronUpDownIcon } from "@heroicons/vue/16/solid";
 import { CheckIcon } from "@heroicons/vue/24/outline";
 import type { Locale } from "vue-i18n";
 
-const { showText = true } = defineProps<{ showText?: boolean }>();
+const { showText = true, openUp = false } = defineProps<{
+  showText?: boolean;
+  openUp?: boolean;
+}>();
 
 const { locales, locale: currLocale, setLocale } = useI18n();
 
