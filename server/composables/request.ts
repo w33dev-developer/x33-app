@@ -94,8 +94,11 @@ export function isClientRequest() {
   const existingState = useState("clientMode", () => false);
   if (import.meta.server) {
     const headers = useRequestHeaders(["User-Agent"]);
-    const calculatedClientRequest =
-      headers["user-agent"] == "X33 App Desktop Client";
+    // Accept both the X33 client and already-built clients that still send the
+    // upstream user agent, so the web header/footer stay hidden inside the app.
+    const calculatedClientRequest = /^(X33 App|Drop) Desktop Client$/.test(
+      headers["user-agent"] ?? "",
+    );
     existingState.value = calculatedClientRequest;
   }
 
